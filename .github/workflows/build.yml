@@ -7,7 +7,7 @@ jobs:
     name: Build SWEB
     runs-on: ubuntu-latest
     steps:
-      - run: "apt install qemu-system-x86"
+      - run: "sudo apt install qemu-system-x86"
       - name: Checkout
         uses: actions/checkout@v4
       - name: Create Build Directory
